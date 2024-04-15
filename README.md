@@ -14,7 +14,7 @@ This project implements digit classification on the MNIST dataset using the PyTo
 
 
 
-#Model Implementations and Parameter Calculations
+# Model Implementations and Parameter Calculations
 ##LeNet-5 Architecture:
 
 Input: 1x28x28 image (since MNIST images are 28x28 pixels and grayscale)
