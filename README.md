@@ -70,6 +70,7 @@ Training Accuracy: XX.XX%
 Testing Accuracy: YY.YY%
 Training Loss: Z.ZZZZ
 Testing Loss: A.AAAA
+![Uploading training_testing_metrics.png…]()
 
 ### Custom MLP
 
