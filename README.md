@@ -18,12 +18,19 @@ This project implements digit classification on the MNIST dataset using the PyTo
 ## LeNet-5 Architecture:
 
 Input: 1x28x28 image (since MNIST images are 28x28 pixels and grayscale)
+
 C1: Convolutional layer with 6 filters of size 5x5, stride 1 (output: 6x24x24)
+
 S2: Max pooling layer with size 2x2, stride 2 (output: 6x12x12)
+
 C3: Convolutional layer with 16 filters of size 5x5, stride 1 (output: 16x8x8)
+
 S4: Max pooling layer with size 2x2, stride 2 (output: 16x4x4)
+
 C5: Fully connected layer with 120 units
+
 F6: Fully connected layer with 84 units
+
 Output: Fully connected layer with 10 units (10 classes)
 
 ### Parameter Calculation:
