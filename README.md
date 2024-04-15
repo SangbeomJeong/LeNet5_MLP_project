@@ -12,16 +12,6 @@ This project implements digit classification on the MNIST dataset using the PyTo
 - `main.py`: Main script to execute training and testing of the models.
 - `README.md`: This file, explaining the project and how to run it.
 
-## Setup
-
-### Prerequisites
-
-- Python 3.8+
-- PyTorch 1.7+
-- torchvision
-- PIL
-- argparse
-
 ### Installation
 
 Clone the repository to your local machine:
@@ -62,25 +52,3 @@ Include plots of training/testing loss and accuracy here (if available).
 
 
 
-
-
-Discussion
-Discuss the performance differences between the models and any observations from the loss and accuracy plots. Mention any challenges faced and how they were overcome.
-
-Conclusions
-Summarize the findings of this project, the effectiveness of the models, and any potential improvements that could be made.
-
-Notes on Using GitHub
-Create a Repository: Log in to GitHub, go to your profile or the main page, click on "New" to create a new repository. Name it appropriately based on your project.
-Upload Files: You can upload files directly through the GitHub interface:
-Navigate to your repository.
-Click 'Add file' > 'Upload files'.
-Drag your project files (dataset.py, model.py, main.py) into the space provided or use the file explorer to select them.
-Commit the changes.
-Edit README.md: You can edit README.md directly on GitHub:
-Navigate to your repository.
-Click on README.md.
-Click the pencil icon to edit.
-Paste the provided Markdown content.
-Commit the changes.
-This will make your project available on GitHub with a clear and comprehensive README. Adjust any specifics, such as adding actual parameter counts or replacing placeholder paths with real ones.
