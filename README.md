@@ -112,8 +112,11 @@ Performance Metrics: The table below shows the accuracy improvements before and 
 
 Metric	Before Regularization	After Regularization
 
-Training Accuracy	98.5%	99.1%
-Validation Accuracy	97.8%	98.6%
+| Metric                | Before Regularization | After Regularization |
+|-----------------------|-----------------------|----------------------|
+| Training Accuracy     | 98.5%                 | 99.1%                |
+| Validation Accuracy   | 97.8%                 | 98.6%                |
+
 
 These results indicate that the regularization techniques effectively enhanced the model's generalization capabilities, as evidenced by the improved validation accuracy.
 
