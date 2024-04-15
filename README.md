@@ -15,7 +15,7 @@ This project implements digit classification on the MNIST dataset using the PyTo
 
 
 # Model Implementations and Parameter Calculations
-##LeNet-5 Architecture:
+## LeNet-5 Architecture:
 
 Input: 1x28x28 image (since MNIST images are 28x28 pixels and grayscale)
 C1: Convolutional layer with 6 filters of size 5x5, stride 1 (output: 6x24x24)
@@ -27,38 +27,8 @@ F6: Fully connected layer with 84 units
 Output: Fully connected layer with 10 units (10 classes)
 Parameter Calculation:
 
-Conv1: 
-(
-1
-×
-5
-×
-5
-+
-1
-)
-×
-6
-=
-156
-(1×5×5+1)×6=156 parameters (weights + bias)
-Conv2: 
-(
-6
-×
-5
-×
-5
-+
-1
-)
-×
-16
-=
-2
-,
-416
-(6×5×5+1)×16=2,416 parameters (weights + bias)
+Conv1: (1×5×5+1)×6=156 parameters (weights + bias)
+Conv2: (6×5×5+1)×16=2,416 parameters (weights + bias)
 FC1: 
 (
 16
