@@ -25,7 +25,10 @@ S4: Max pooling layer with size 2x2, stride 2 (output: 16x4x4)
 C5: Fully connected layer with 120 units
 F6: Fully connected layer with 84 units
 Output: Fully connected layer with 10 units (10 classes)
-Parameter Calculation:
+
+### Parameter Calculation:
+conv1:(1x5x5+1)x6=156 parameters
+
 
 Conv1: (1×5×5+1)×6=156 parameters (weights + bias)
 Conv2: (6×5×5+1)×16=2,416 parameters (weights + bias)
