@@ -64,13 +64,14 @@ total parameters in Custom MLP : 392,500+75,150+1,510 = 469,160
 In this project, we evaluated two models on the MNIST dataset: the classic LeNet-5 and a custom-designed Multi-Layer Perceptron (MLP) that has a similar number of parameters as LeNet-5. The goal was to compare their performance in terms of accuracy and loss across multiple training epochs.
 
 ## Model Performance Summary
-LeNet-5
+### LeNet-5
 
 Training Accuracy: XX.XX%
 Testing Accuracy: YY.YY%
 Training Loss: Z.ZZZZ
 Testing Loss: A.AAAA
-Custom MLP
+
+### Custom MLP
 
 Training Accuracy: XX.XX%
 Testing Accuracy: YY.YY%
