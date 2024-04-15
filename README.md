@@ -71,7 +71,7 @@ Testing Accuracy: YY.YY%
 Training Loss: Z.ZZZZ
 Testing Loss: A.AAAA
 
-![Uploading training_testing_metrics.png…](![image](https://github.com/SangbeomJeong/LeNet5_MLP_project/assets/111654943/4eb8e19a-d5e3-4c96-9ad7-9b9f045802a0)
+![Uploading training_testing_metrics.png…](LeNet5_MLP_project/figures/training_testing_metrics.png)
 )
 
 ### Custom MLP
