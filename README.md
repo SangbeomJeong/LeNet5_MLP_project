@@ -12,9 +12,10 @@ This project implements digit classification on the MNIST dataset using the PyTo
 - `main.py`: Main script to execute training and testing of the models.
 - `README.md`: This file, explaining the project and how to run it.
 
-Model Implementations and Parameter Calculations
-LeNet-5
-Architecture:
+
+
+#Model Implementations and Parameter Calculations
+##LeNet-5 Architecture:
 
 Input: 1x28x28 image (since MNIST images are 28x28 pixels and grayscale)
 C1: Convolutional layer with 6 filters of size 5x5, stride 1 (output: 6x24x24)
@@ -187,4 +188,3 @@ Total Parameters in Custom MLP:
 392,500+75,150+1,510=469,160
 Discussion on Parameter Count
 The LeNet-5 model has approximately 44,426 parameters, while the Custom MLP model, designed to be comparably complex, has 469,160 parameters. The substantial increase in parameters for the MLP model is primarily due to the first fully connected layer, which interacts directly with the flattened input image resulting in a large number of weights. This discrepancy highlights the efficiency of convolutional layers used in LeNet-5, which reduce the parameter count significantly by sharing weights across spatial hierarchies of the image.
-
