@@ -38,4 +38,49 @@ To run the training and testing for the models, execute:
 ```bash
 python main.py --train_data_dir path/to/train/data --test_data_dir path/to/test/data
 
-Replace path/to/train/data and path/to/test/data with the paths to your training and testing datasets, respectively.
+Models
+LeNet-5
+Architecture: Consists of two convolutional layers followed by three fully connected layers.
+Activation: ReLU is used for non-linearity.
+Pooling: MaxPooling is used.
+Parameters: The model has a total of approximately X parameters.
+CustomMLP
+Architecture: A simple MLP with one hidden layer.
+Activation: ReLU is used for non-linearity.
+Parameters: The model has a total of approximately Y parameters, matching those of LeNet-5.
+Training
+Models were trained for 10 epochs using the SGD optimizer with a learning rate of 0.01 and momentum of 0.9. CrossEntropyLoss was used as the loss function.
+
+Results
+The performance of the models is summarized below:
+
+Model	Train Accuracy	Test Accuracy	Train Loss	Test Loss
+LeNet-5	XX.XX%	YY.YY%	Z.ZZZZ	A.AAAA
+CustomMLP	XX.XX%	YY.YY%	Z.ZZZZ	A.AAAA
+Plots
+Include plots of training/testing loss and accuracy here (if available).
+
+
+
+
+
+Discussion
+Discuss the performance differences between the models and any observations from the loss and accuracy plots. Mention any challenges faced and how they were overcome.
+
+Conclusions
+Summarize the findings of this project, the effectiveness of the models, and any potential improvements that could be made.
+
+Notes on Using GitHub
+Create a Repository: Log in to GitHub, go to your profile or the main page, click on "New" to create a new repository. Name it appropriately based on your project.
+Upload Files: You can upload files directly through the GitHub interface:
+Navigate to your repository.
+Click 'Add file' > 'Upload files'.
+Drag your project files (dataset.py, model.py, main.py) into the space provided or use the file explorer to select them.
+Commit the changes.
+Edit README.md: You can edit README.md directly on GitHub:
+Navigate to your repository.
+Click on README.md.
+Click the pencil icon to edit.
+Paste the provided Markdown content.
+Commit the changes.
+This will make your project available on GitHub with a clear and comprehensive README. Adjust any specifics, such as adding actual parameter counts or replacing placeholder paths with real ones.
