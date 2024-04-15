@@ -29,3 +29,13 @@ Clone the repository to your local machine:
 ```bash
 git clone https://github.com/<your-username>/mnist-classification.git
 cd mnist-classification
+
+
+## Running the Code
+
+To run the training and testing for the models, execute:
+
+```bash
+python main.py --train_data_dir path/to/train/data --test_data_dir path/to/test/data
+
+Replace path/to/train/data and path/to/test/data with the paths to your training and testing datasets, respectively.
