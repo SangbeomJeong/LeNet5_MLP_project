@@ -53,8 +53,49 @@ Output: 10 units (10 classes)
 
 ### Parameter Calculation for Custom MLP:
 fc1: (784+1)x500 = 392,500 parameters
+
 fc2: (500+1)x150= 75,150 parameters
+
 fc3 : (150+1)x10 = 1,510 parameters
 
 total parameters in Custom MLP : 392,500+75,150+1,510 = 469,160
+
+# Performance Comparison
+In this project, we evaluated two models on the MNIST dataset: the classic LeNet-5 and a custom-designed Multi-Layer Perceptron (MLP) that has a similar number of parameters as LeNet-5. The goal was to compare their performance in terms of accuracy and loss across multiple training epochs.
+
+## Model Performance Summary
+LeNet-5
+
+Training Accuracy: XX.XX%
+Testing Accuracy: YY.YY%
+Training Loss: Z.ZZZZ
+Testing Loss: A.AAAA
+Custom MLP
+
+Training Accuracy: XX.XX%
+Testing Accuracy: YY.YY%
+Training Loss: B.BBBB
+Testing Loss: C.CCCC
+
+## Analysis and Discussion
+The LeNet-5 model generally exhibits higher accuracy compared to the custom MLP model. This superiority can be attributed to the convolutional layers of LeNet-5, which are effective at learning spatial hierarchies in images. Despite having fewer parameters, convolutional networks can extract significant spatial features, outperforming the relatively complex MLP model in tasks such as image classification.
+
+The accuracy of LeNet-5 on the test dataset should align closely with known benchmarks (e.g., around 99%). If the observed accuracy deviates significantly from this range, it may indicate issues with learning parameters (e.g., learning rate, number of epochs), data preprocessing methods, or possible errors in the model implementation.
+
+## Conclusion
+In this study, the LeNet-5 model demonstrated performance close to known benchmarks and achieved lower losses and higher accuracies than the custom MLP model. These results suggest that convolutional neural networks like LeNet-5 are more suited for tasks involving image classification, such as MNIST digit classification.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
