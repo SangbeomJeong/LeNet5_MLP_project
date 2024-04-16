@@ -13,8 +13,7 @@ This project implements digit classification on the MNIST dataset using the PyTo
 - `README.md`: This file, explaining the project and how to run it.
 
 ## How to run it 
-git clone https://github.com/SangbeomJeong/LeNet5_MLP_project.git
-
+ ''' git clone https://github.com/SangbeomJeong/LeNet5_MLP_project.git '''
 
 # Model Implementations and Parameter Calculations
 ## LeNet-5 Architecture:
