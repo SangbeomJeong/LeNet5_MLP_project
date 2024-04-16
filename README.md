@@ -64,6 +64,8 @@ fc3 : (30+1)x10 = 310 parameters
 
 total parameters in Custom MLP : 39,250 + 1,530 + 310 = 41,090
 
+## Compare parameters numbers 
+
 
 |   Architecture        |   total parameters    |
 |-----------------------|-----------------------|
