@@ -93,7 +93,7 @@ Testing Accuracy: 97.26%
 Training Loss: 0.0356
 Testing Loss: 0.0992
 
-![Uploading training_testing_metrics.png…](figures/figures/customMLP_train_test_result.png)
+![Uploading training_testing_metrics.png…](figures/customMLP_train_test_result.png)
 
 
 ## Analysis and Discussion
