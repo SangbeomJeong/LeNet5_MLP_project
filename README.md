@@ -10,8 +10,10 @@ This project implements digit classification on the MNIST dataset using the PyTo
 - `dataset.py`: Contains the MNIST dataset handling including loading and transforming images.
 - `model.py`: Defines the architectures of LeNet-5 and CustomMLP.
 - `main.py`: Main script to execute training and testing of the models.
-- `README.md`: This file, explaining the project.
+- `README.md`: This file, explaining the project and how to run it.
 
+## How to run it 
+git clone https://github.com/SangbeomJeong/LeNet5_MLP_project.git
 
 
 # Model Implementations and Parameter Calculations
