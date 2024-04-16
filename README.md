@@ -5,7 +5,7 @@
 
 This project implements digit classification on the MNIST dataset using the PyTorch framework. It includes two models: the classic LeNet-5 and a custom Multi-Layer Perceptron (MLP) designed to have a similar number of parameters as LeNet-5. The goal is to compare the performance of these models in terms of accuracy and loss over multiple training epochs.
 
-## Project Structure
+## Code Configuration
 
 - `dataset.py`: Contains the MNIST dataset handling including loading and transforming images.
 - `model.py`: Defines the architectures of LeNet-5 and CustomMLP.
@@ -17,7 +17,7 @@ This project implements digit classification on the MNIST dataset using the PyTo
 # Model Implementations and Parameter Calculations
 ## LeNet-5 Architecture:
 
-Input: 1x28x28 image (since MNIST images are 28x28 pixels and grayscale)
+Input: 1x28x28 image (MNIST images are 28x28 pixels and grayscale)
 
 C1: Convolutional layer with 6 filters of size 5x5, stride 1 (output: 6x24x24)
 
