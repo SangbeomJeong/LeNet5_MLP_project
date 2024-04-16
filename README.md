@@ -13,6 +13,21 @@ This project implements digit classification on the MNIST dataset using the PyTo
 - `README.md`: This file, explaining the project and how to run it.
 
 ## How to run it 
+
+## Training
+
+Start training with:
+\``` 
+python main.py
+\```
+
+You can manually resume the training with:
+\```
+python main.py --resume --lr=0.01
+\```
+
+## Accuracy
+
  ''' git clone https://github.com/SangbeomJeong/LeNet5_MLP_project.git '''
 
 # Model Implementations and Parameter Calculations
