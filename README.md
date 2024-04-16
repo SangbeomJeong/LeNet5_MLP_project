@@ -71,7 +71,6 @@ total parameters in Custom MLP : 39,250 + 1,530 + 310 = 41,090
 |-----------------------|-----------------------|
 |     LeNet-5           |    44,426             |
 |    Custom MLP         |    41,090             | 
--------------------------------------------------
 
 
 # Performance Comparison
@@ -89,14 +88,12 @@ Testing Loss: 0.0398
 
 ### Custom MLP
 
-Training Accuracy: XX.XX%
-Testing Accuracy: YY.YY%
-Training Loss: B.BBBB
-Testing Loss: C.CCCC
+Training Accuracy: 98.86%
+Testing Accuracy: 97.26%
+Training Loss: 0.0356
+Testing Loss: 0.0992
 
-
-
-
+![Uploading training_testing_metrics.png…](figures/figures/figures/customMLP_train_test_result.png)
 
 
 ## Analysis and Discussion
@@ -110,16 +107,13 @@ The accuracy of LeNet-5 on the test dataset should align closely with known benc
 In this study, the LeNet-5 model demonstrated performance close to known benchmarks and achieved lower losses and higher accuracies than the custom MLP model. These results suggest that convolutional neural networks like LeNet-5 are more suited for tasks involving image classification, such as MNIST digit classification.
 
 
-
-
-
 # Regularization Techniques to Improve LeNet-5 Model
 In this project, we aim to enhance the performance of the LeNet-5 model on the MNIST digit classification task. Regularization techniques are crucial for improving generalization, reducing overfitting, and achieving higher accuracy, especially when working with a limited amount of training data. The following regularization techniques were employed:
 
 ## Dropout
 Dropout is a regularization technique that prevents neural networks from overfitting. It works by randomly setting the output features of hidden units to zero at each update during training time, which helps to break up happenstance correlations that can form in the weights.
 
-Implementation: Dropout was added after each fully connected layer in the LeNet-5 architecture. A dropout rate of 0.5 was used, meaning each neuron was kept with a probability of 0.5 during the training phase.
+Implementation: Dropout was added after each fully connected layer in the LeNet-5 architecture. A dropout rate of 0.2 was used, meaning each neuron was kept with a probability of 0.2 during the training phase.
 
 ## Batch Normalization
 Batch Normalization is used to stabilize the neural network training by normalizing the layer inputs. It smoothens the optimization landscape and accelerates the training process.
