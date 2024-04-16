@@ -80,12 +80,12 @@ In this project, we evaluated two models on the MNIST dataset: the classic LeNet
 ## Model Performance Summary
 ### LeNet-5
 
-Training Accuracy: XX.XX%
-Testing Accuracy: YY.YY%
-Training Loss: Z.ZZZZ
-Testing Loss: A.AAAA
+Training Accuracy: 99.60%
+Testing Accuracy: 98.84%
+Training Loss: 0.0121
+Testing Loss: 0.0398
 
-![Uploading training_testing_metrics.png…](figures/training_testing_metrics.png)
+![Uploading training_testing_metrics.png…](figures/figures/LeNet5_train_test_result.png)
 
 ### Custom MLP
 
@@ -100,9 +100,11 @@ Testing Loss: C.CCCC
 
 
 ## Analysis and Discussion
-The LeNet-5 model generally exhibits higher accuracy compared to the custom MLP model. This superiority can be attributed to the convolutional layers of LeNet-5, which are effective at learning spatial hierarchies in images. Despite having fewer parameters, convolutional networks can extract significant spatial features, outperforming the relatively complex MLP model in tasks such as image classification.
+The LeNet-5 model generally exhibits higher accuracy compared to the custom MLP model. This superiority can be attributed to the convolutional layers of LeNet-5, which are effective at learning spatial hierarchies in images. convolutional networks can extract significant spatial features, outperforming the relatively complex MLP model in tasks such as image classification.
 
-The accuracy of LeNet-5 on the test dataset should align closely with known benchmarks (e.g., around 99%). If the observed accuracy deviates significantly from this range, it may indicate issues with learning parameters (e.g., learning rate, number of epochs), data preprocessing methods, or possible errors in the model implementation.
+The accuracy of LeNet-5 on the test dataset should align closely with known benchmarks (e.g., around 98%).
+
+
 
 ## Conclusion
 In this study, the LeNet-5 model demonstrated performance close to known benchmarks and achieved lower losses and higher accuracies than the custom MLP model. These results suggest that convolutional neural networks like LeNet-5 are more suited for tasks involving image classification, such as MNIST digit classification.
