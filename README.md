@@ -84,7 +84,7 @@ Testing Accuracy: 98.84%
 Training Loss: 0.0121
 Testing Loss: 0.0398
 
-![Uploading training_testing_metrics.png…](figures/figures/LeNet5_train_test_result.png)
+![Uploading training_testing_metrics.png…](figures/LeNet5_train_test_result.png)
 
 ### Custom MLP
 
@@ -93,7 +93,7 @@ Testing Accuracy: 97.26%
 Training Loss: 0.0356
 Testing Loss: 0.0992
 
-![Uploading training_testing_metrics.png…](figures/figures/figures/customMLP_train_test_result.png)
+![Uploading training_testing_metrics.png…](figures/figures/customMLP_train_test_result.png)
 
 
 ## Analysis and Discussion
