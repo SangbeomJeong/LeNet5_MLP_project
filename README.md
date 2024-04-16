@@ -35,30 +35,42 @@ Output: Fully connected layer with 10 units (10 classes)
 
 ### Parameter Calculation for LeNet-5:
 conv1:(1x5x5+1)x6=156 parameters
+
 conv2: (6x5x5+1)x16=2,416 parameters
+
 fc1: (16×4×4+1)×120=30,840 parameters
+
 fc2: (120+1)×84=10,164 parameters 
+
 fc3: (84+1)x10=850 parameters
 
 total parameters in LeNet-5 : 156 + 2,416+ 30,840+ 10,164+ 850 = 44,426
 
 ## Custom MLP Architecture::
-Input: Flattened 1x28x28 image (784 inputs)
+Input: Flattened 1x28x28 image (MNIST images are 28x28 pixels and grayscale)
 
-Hidden Layer 1: 500 units
+Hidden Layer 1: 50 units
 
-Hidden Layer 2: 150 units
+Hidden Layer 2: 30 units
 
 Output: 10 units (10 classes)
 
 ### Parameter Calculation for Custom MLP:
-fc1: (784+1)x500 = 392,500 parameters
+fc1: (784+1)x50 = 39,250 parameters
 
-fc2: (500+1)x150= 75,150 parameters
+fc2: (50+1)x30= 1,530 parameters
 
-fc3 : (150+1)x10 = 1,510 parameters
+fc3 : (30+1)x10 = 310 parameters
 
-total parameters in Custom MLP : 392,500+75,150+1,510 = 469,160
+total parameters in Custom MLP : 39,250 + 1,530 + 310 = 41,090
+
+
+|   Architecture        |   total parameters    |
+|-----------------------|-----------------------|
+|     LeNet-5           |    44,426             |
+|    Custom MLP         |    41,090             | 
+
+
 
 # Performance Comparison
 In this project, we evaluated two models on the MNIST dataset: the classic LeNet-5 and a custom-designed Multi-Layer Perceptron (MLP) that has a similar number of parameters as LeNet-5. The goal was to compare their performance in terms of accuracy and loss across multiple training epochs.
@@ -79,6 +91,11 @@ Training Accuracy: XX.XX%
 Testing Accuracy: YY.YY%
 Training Loss: B.BBBB
 Testing Loss: C.CCCC
+
+
+
+
+
 
 ## Analysis and Discussion
 The LeNet-5 model generally exhibits higher accuracy compared to the custom MLP model. This superiority can be attributed to the convolutional layers of LeNet-5, which are effective at learning spatial hierarchies in images. Despite having fewer parameters, convolutional networks can extract significant spatial features, outperforming the relatively complex MLP model in tasks such as image classification.
