@@ -125,12 +125,14 @@ These regularization techniques combined showed a significant improvement in mod
 
 Performance Metrics: The table below shows the accuracy improvements before and after regularization:
 
+![Uploading training_testing_metrics.png…](figures/LeNet5_Regularized_train_test_result.png)
+
 Metric	Before Regularization	After Regularization
 
 | Metric                | Before Regularization | After Regularization |
 |-----------------------|-----------------------|----------------------|
-| Training Accuracy     | 98.5%                 | 99.1%                |
-| Validation Accuracy   | 97.8%                 | 98.6%                |
+| Test Accuracy         | 98.84%                | 99.03%               |
+
 
 
 These results indicate that the regularization techniques effectively enhanced the model's generalization capabilities, as evidenced by the improved validation accuracy.
